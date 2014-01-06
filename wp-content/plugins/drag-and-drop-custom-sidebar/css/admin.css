@@ -1,0 +1,50 @@
+.jbtable_top, .jbtable_bottom{
+	background: #adadad;
+	background: -moz-linear-gradient(top, #adadad 1%, #c1c1c1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#adadad), color-stop(100%,#c1c1c1));
+	background: -webkit-linear-gradient(top, #adadad 1%,#c1c1c1 100%);
+	background: -o-linear-gradient(top, #adadad 1%,#c1c1c1 100%);
+	background: -ms-linear-gradient(top, #adadad 1%,#c1c1c1 100%);
+	background: linear-gradient(to bottom, #adadad 1%,#c1c1c1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#c1c1c1',GradientType=0 );
+	padding: 3px;
+	height: 25px;
+}
+.jbtable_top{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.jbtable_bottom{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.jbtable{
+	border-left: 1px solid #adadad;
+	border-right: 1px solid #adadad;
+}
+.jbtable .jb_jbtable_line1{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	padding-left: 5px;
+	background-color: whitesmoke;
+}
+.sidebar_wrapper{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#slidebars_list .jbslidetitle{
+	float: left;
+	font-weight: 600;
+}
+#slidebars_list .jbslide{
+	display: block;
+}
+#slidebars_list .jbslideoptions{
+	float: right;
+}
+#jb_sidebar_save_option{
+	float:left;
+	margin-top: 10px;
+}
